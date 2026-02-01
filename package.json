@@ -1,6 +1,6 @@
 {
     "name": "delta-e-ts",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "Library to calculate DeltaE from any two CIE-Lab colors. Also includes utils to convert hex string to RGB and RGB to CIE-Lab color space",
     "homepage": "https://github.com/d1vij/DeltaE#readme",
     "bugs": {
