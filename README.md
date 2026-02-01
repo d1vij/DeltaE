@@ -7,13 +7,13 @@ Currently only supports the DeltaE94 Algorithm
 ## Installation
 
 ```bash
-bun add delta-e
+bun add delta-e-ts
 ```
 
 ## Usage
 
 ```typescript
-import { DeltaE94 } from "delta-e";
+import { DeltaE94 } from "delta-e-ts";
 
 const weights: DeltaE94_Weights = { lightness: 1, chroma: 1, hue: 1 };
 
