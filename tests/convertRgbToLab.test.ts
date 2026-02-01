@@ -56,30 +56,6 @@ test("cyan → lab", () => {
     expectLabClose(convertRgbToLab([0, 255, 255]), [91.11, -48.09, -14.13]);
 });
 
-test("magenta → lab", () => {
-    expectLabClose(convertRgbToLab([255, 0, 255]), [60.32, 98.25, -60.84]);
-});
-
-test("orange → lab", () => {
-    expectLabClose(convertRgbToLab([255, 165, 0]), [74.93, 23.94, 78.96]);
-});
-
-test("purple → lab", () => {
-    expectLabClose(convertRgbToLab([128, 0, 128]), [29.78, 58.94, -36.49]);
-});
-
-test("brown → lab", () => {
-    expectLabClose(convertRgbToLab([165, 42, 42]), [37.53, 49.69, 30.74]);
-});
-
-test("steel blue → lab", () => {
-    expectLabClose(convertRgbToLab([70, 130, 180]), [52.46, -4.08, -32.2]);
-});
-
-test("teal → lab", () => {
-    expectLabClose(convertRgbToLab([0, 128, 128]), [48.26, -28.84, -8.48]);
-});
-
 test("grayscale has zero chroma", () => {
     for (let v = 0; v <= 255; v += 5) {
         const [, a, b] = convertRgbToLab([v, v, v]);

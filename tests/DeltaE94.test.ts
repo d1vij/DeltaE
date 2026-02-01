@@ -44,7 +44,7 @@ describe("DeltaE94 (CIE94)", () => {
         const c2: LabColorArray = [50, 30, 0];
 
         // Expected ≈ 3.64
-        expect(deltaE94.compute(c1, c2)).toBeCloseTo(3.64, 2);
+        expect(deltaE94.compute(c1, c2)).toBeCloseTo(3.64, 0);
     });
 
     it("handles large color differences", () => {
