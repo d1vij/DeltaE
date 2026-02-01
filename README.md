@@ -1,4 +1,4 @@
-# delta-e
+# delta-e-ts
 
 Library to calculate DeltaE from any two CIE-Lab colors. Also includes utils to convert hex string to RGB and RGB to CIE-Lab color space
 
