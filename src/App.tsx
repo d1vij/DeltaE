@@ -22,7 +22,19 @@ function App() {
             <ColorPicker color={colorB} setColor={setColorB} />
             {/*results*/}
             <p className="text-center">
-                DeltaE for the two colors is <em>{result}</em>
+                CIE94 Delta-E for the two colors is <em>{result}</em>
+            </p>
+
+            <p>
+                See source at{" "}
+                <a
+                    className="hover:underline active:underline decoration-2"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/d1vij/DeltaE"
+                >
+                    Github
+                </a>
             </p>
         </div>
     );
