@@ -1,4 +1,4 @@
-import type { LabColorArray, DeltaE94_Weights } from "./types";
+import type { DeltaE94_Weights, LabColorArray } from "./types";
 
 /**
  * Class to compute DeltaE of two Lab colors using the CIE-94 algorithm

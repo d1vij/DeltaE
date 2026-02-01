@@ -1,6 +1,6 @@
-import { describe, it, expect } from "bun:test";
-import { DeltaE94 } from "../src";
+import { describe, expect, it } from "bun:test";
 import type { LabColorArray } from "../src";
+import { DeltaE94 } from "../src";
 
 /**
  * Graphic arts defaults:
